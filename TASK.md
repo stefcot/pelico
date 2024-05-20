@@ -23,3 +23,7 @@ https://fakestoreapi.com/
 ### Notes
 Project has `react-router-dom` v6 installed. Documentation:
 https://reactrouter.com/docs/en/v6/getting-started/overview
+
+nathalie.nguyen@pelico.io
+
+damien.artero@pelico.io

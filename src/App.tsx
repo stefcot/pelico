@@ -1,10 +1,17 @@
 import './App.css'
+import React from "react";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Web store application</h1>
-    </div>
+
+      <React.StrictMode>
+          <BrowserRouter>
+              <Routes>
+                  <Route path={"/"} element={<App />} />
+              </Routes>
+          </BrowserRouter>
+      </React.StrictMode>
   );
 }
 
